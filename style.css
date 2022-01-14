@@ -1,0 +1,205 @@
+/* css reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* css variables */
+:root{
+    --navbar-height: 59px;
+}
+/* navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+/*navigation: logo and image  */
+#logo{
+   margin: 10px 34px;
+}
+#logo img{
+    height: 40px;
+margin:3px 6px;
+}
+/*navigation: list styling */
+
+#navbar ul{
+    font-family: 'Bree Serif', serif;
+    display: flex;
+}
+#navbar::before{
+   content: "";
+   background-color: black;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: .4;
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 652px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url('https://pixabay.com/get/gd35c3a7c6b47e75171277fdbbbdf72cbcb0c82587c16e8e85678ea8ebe70af2f2d686240a128ced146d10620c77b39c6_1920.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 90%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+/* services section */
+#services{
+    margin: 11px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 20px;
+    background-color: rgb(245, 216, 196);
+}
+#services .box img{
+    height:75px;
+    display: block;
+    margin: auto;
+    
+
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+/* client section  */ */
+ #clients-section{
+    /* height: 344px; */
+    position: relative;
+}
+ #client-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://pixabay.com/get/ga4b9abf9b017e3ebd5f6727dbe5214529317f479412721544dddc62fd7bf0398f6061728d4852ba3d42640654d4a5774_1920.png');
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    opacity: .3;
+    top: 1111px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clients-item{
+    padding: 20px;
+}
+#clients img{
+    height: 100px;
+}
+/* contact section  */
+#contact{
+    position: relative;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .7;
+    background: url('https://pixabay.com/get/gc4d1f43588f816c825a7bf01f92393c6996318f0fe56f12e786037497ef8c839d80ab69c0e261fb2a35d175e64813fbf_1920.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+
+}
+#contact-box form{
+width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+footer{
+    background: black;
+    color: white;
+
+}
+/* utility class */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: gray;
+    color: white;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}

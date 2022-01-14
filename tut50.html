@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string function in js</title>
+</head>
+<body>
+    <div class="container"></div>
+    <script>
+        var str = "this is a string"
+        console.log(str);
+        // first occurence of substring
+        var position = str.indexOf('is');
+        console.log(position);
+        // last occurence of substring
+         position = str.lastIndexOf('is');
+        console.log(position);
+
+        //substring from a string
+        var substr = str.slice(1,6)
+        console.log(substr)
+    </script>
+</body>
+</html>

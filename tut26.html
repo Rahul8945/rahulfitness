@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://getwallpapers.com/wallpaper/full/1/9/6/53562.jpg');
+            height: 1000px;
+
+        }
+
+        .left {
+            position: absolute;
+            left: 60px;
+            top: 10px;
+            /* border: 2px solid red; */
+            display: inline-block;
+
+        }
+
+        .left img {
+            width: 110px;
+            /* filter: invert(100%); */
+            margin: 10px;
+            margin-top: 0px;
+
+        }
+
+        .left div {
+            line-height: 10px;
+            font-size: 18px;
+
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 37%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 6px 15px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 103px 81px;
+            padding: 27px 27px;
+            width: 33%;
+            border-radius: 37px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai 2', cursive;
+
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 8px auto;
+            font-size: 21px;
+            border-radius: 15px;
+
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 45%;
+            margin: 10px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="class">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://www.freepngimg.com/thumb/hand/76374-fitness-logo-vector-creative-download-hd-png.png"
+                alt="">
+            <div>RAHUL FITNESS</div>
+
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href='#' class=active>Home</a></li>
+                <li><a href='#'>About us</a></li>
+                <li><a href='#'>Fitness calculator</a></li>
+                <li><a href='#'>Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>Join the best gym of Raipur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\c-coding"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"EXE1.C": "cpp",
+			"tempCodeRunnerFile.C": "cpp",
+			"TUTORIAL23.C": "cpp",
+			"TUTORIAL63.C": "cpp",
+			"iostream": "cpp",
+			"ostream": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": ".vscode"
+	}
+}
